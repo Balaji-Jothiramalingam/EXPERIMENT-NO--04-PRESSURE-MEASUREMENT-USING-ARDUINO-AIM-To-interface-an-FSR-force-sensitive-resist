@@ -60,6 +60,8 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 ### FIGURE-03 CIRCUIT DIAGRAM
 
+![log](ex3robo.png)
+
 
 
 ### PROCEDURE:
@@ -115,7 +117,7 @@ delay(1000);
  
  
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
+![log](ex3robo.jpeg)
 
 
 ### TABLE -02 standard deviation table 
