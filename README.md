@@ -76,10 +76,30 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
+ ```
+ NAME: Balaji J
+ ROLL NO: 22000048
  
+ 
+ int Sensorvalue = A0;
+int newton;
+void setup()
+{
+  Serial.begin(9600);
+}
+
+void loop()
+{
+Sensorvalue=  analogRead(A0);
+newton = map(Sensorvalue,0,466,0,10);
+Serial.print("\nRaw Value: ");
+Serial.println(Sensorvalue);
+Serial.print("\nForce: ");
+Serial.println(newton);
+delay(1000);
+}
+
+ ```
  
  
  
